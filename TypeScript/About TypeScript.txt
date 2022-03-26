@@ -1,0 +1,10 @@
+#TypeScript Init...
+
+###oque é TypeScript
+	É uma linguagem de programação de codigo aberto, criado pela Microsoft Foi baseada em JavaScript, todo codigo escrito em typeScript no fim será um codigo em JS.
+	A ideia do TS é criar um código, capaz de prever erros de codigo que em JS não seria possivel a primeira vista	através da  restrição forte com relação aos tipos de dados além de outros usos da linguagem. No entanto, tudo oque se faz em TS obviamente é possivel fazer em JS, uma vez que TS no final das contas vai ser traduzido para JS.
+	
+### Necessidades do Uso
+	Continuar depois...
+	
+	

@@ -1,0 +1,92 @@
+Principais tags
+HTML
+<html>
+<head>
+<body>
+<div>
+<h1><h2>..<h6>
+<p>
+<img src="">
+<a>
+<lu>
+<li>
+<br>
+<hr>
+
+
+CSS
+formas de inserir css no HTML[
+CSS inline
+	dentro do proprio elemento colocar a propriedade style = ""
+	ex: <h1 style="color:red; font-size:14px">Olá mundo<h1>
+	
+CSS interno
+	colocar o css, em um unico local dentro da pagina, geralmente é dentro do <head>, basta criar uma tag chamada <style>
+	ex:
+	--------------------------------------
+		...
+		<head>
+			<style>
+				h1{
+					color:blue;
+					font-size:15px;
+				}
+				a{
+					color:green;
+				}
+			</style>
+		</head>
+		<body>
+			<h1>Olá mundo</h1>
+		</body>
+		...
+	-----------------------------------------
+CSS externo
+	fazer uma link'agem' para outro arquivo com extensão .css
+	cria um arquivo com extensão .css
+	estilo.css >>
+				h1{
+					color:blue;
+					font-size:15px;
+				}
+				a{
+					color:green;
+				}
+	
+	no documento html, na tag <head>
+		<head>
+			<link rel="stylesheet" href="estilo.css">
+		<head>
+
+
+maneiras de selecionar elementos CSS
+tag		-- h1{}
+id		-- #nomeId{}		OBS:unico elemento
+class	-- .nomeClass{}		OBS:varios elementos
+
+unir seleção
+tag, id, class -- h1,#nomeId, .nomeClass {}
+
+especificar seleção
+tag id class -- h1 .nomeClass #nomeId
+
+
+estilos
+
+cores
+	Nome {background-color:red; color:green;}
+	RGB {background-color:rgb(0,0,0); color:rgb(255,255,255);}
+	hex {background-color:#FF0000; color:#FFAA22;}
+	
+todos os elementos tem
+border, padding, margin e conteudo
+border:{3px} {solid} {#000};
+	border-radius: 50px;
+padding: {10px} OBS: espaçamento interno
+	
+margin: {10px}	OBS: espaçamento externo
+
+	
+	
+	
+

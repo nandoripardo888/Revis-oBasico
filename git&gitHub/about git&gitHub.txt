@@ -1,0 +1,121 @@
+study Git
+
+git is a tools to versioning
+
+we can create time line of our archives(scripts)
+we can to retrieves this points and navigates through them,
+
+
+CREAT A NEW GIT REPOSITORY INIT
+--------------------------------------------------------------------------
+to creat a new git, we using command, ... in directory we give the command
+1 - git init
+
+Obs: if it is alredy a folder repository git, so will be restarted.
+
+We can create a README.mb file, where we can write about or project, with the following command
+2 - echo "MY PROJETCT NAME" >> README.mb
+
+now we have our file, we can add to repository
+3 - git add README.mb
+
+to see the file that we just added
+4 - git status
+
+end, to send file to repository definitely we need to commit
+5 - git commit -m" message that describe or inform about changes"
+----------------------------------------------------------------------------
+
+
+ADD A REPOSITORY IN THE CLOUD GITHUB
+----------------------------------------------------------------------------
+create the connection with the link
+1 - git remote add origin 'nameHost'
+
+put the local repository on online repository
+2 - git push -u origin 'master'
+ 
+get changes from online repository
+3 - git pull 
+----------------------------------------------------------------------------
+
+CLONE A REPOSITORY
+----------------------------------------------------------------------------
+1 - git clone 'repositoryLink'
+
+
+BACK TO POINT LINE
+----------------------------------------------------------------------------
+first lookup in the logs wich point you want to back, and copy ID commit
+1 - git log
+
+2 - git checkout 'ID' --'archive you want recovery'
+
+
+BRANCH
+---------------------------------------------------------------------
+see local branch
+- git branch
+
+see remote branch
+- git branch -r
+
+see all branch
+- git branch -a
+
+change branch local
+- git checkout 'branchName'
+
+change branch remote
+- git checkout --track 'branchName'
+
+create a branch local
+- git branch 'name'
+
+create a branch remote
+- git pull -u origin 'name'
+
+delete branch local
+- git branch -d 'name'
+
+delte remote branch
+- git push --delete 'name'
+
+
+
+
+BACK TO ALL POINT IN TIME LINE
+------------------------------------------------------------------------
+first lookup in the logs wich point you want to back, and copy ID commit
+1 - git log
+
+back to the point on history
+2 - git reset --hard 'ID'
+
+now if you want back too in the remote repository
+3 - git push -f
+
+
+
+
+
+commands learned so far
+ls -all - list all archives in the folder
+git init - to start a new repository, a new time line, points in the history
+git log - we can see the all commits in the time line
+git status - to see the changes in our project and repository
+git show - show the point in the time line
+git add 'FileName' or .("dot" to add all files) - add archives or changes locals to the repository
+git commit -m "menssage" -  we definitely send changes to repository
+git branch 'name' - we creat a new branch in or repository OBS: the main branch is master
+git branch - list all branches
+git checkout 'branchName' - we change to branch
+git merge 'OtherBranch' - we merge the changes in two branches
+git branch -D 'Branch' - to delete a branch
+git push - send local repository to online repository
+git clone - create a clone of online repository to local repository
+git pull - get the changes online repository to local repository
+
+
+
+
