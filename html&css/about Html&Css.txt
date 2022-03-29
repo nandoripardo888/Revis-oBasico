@@ -77,14 +77,85 @@ cores
 	Nome {background-color:red; color:green;}
 	RGB {background-color:rgb(0,0,0); color:rgb(255,255,255);}
 	hex {background-color:#FF0000; color:#FFAA22;}
-	
+
+
 todos os elementos tem
 border, padding, margin e conteudo
 border:{3px} {solid} {#000};
 	border-radius: 50px;
 padding: {10px} OBS: espaçamento interno
-	
 margin: {10px}	OBS: espaçamento externo
+conteudo: conteudo dento da tag
+
+width:  
+height:
+valores podem ser passados em
+% px cm pt
+propriedades
+inherit - ele herda valores do seu antecessor
+[max|min]-widht - defini altura maxima|minima
+[max|min]-height - defini altura maxima|minima
+
+box
+box-sizing: content-box; - defini que o conteudo vai receber o valor da width e height sem levar em consideração a borda e padding  {width = conteudo + borda + padding}
+box-sizing: border-box; - defini que o tamanho do width e height leva em consideração a borda e padding {width = conteudo - borda - padding}
+
+link
+html
+atributos 
+<a>
+href : ["www.blabla.com"|"/pagina2.html"|"#idName"]
+title : "title"
+target: "_blank" - pagina em branco
+
+css
+a.hover:{propriedades}
+a.visited{propriedade}
+
+string
+css
+<b> negrito
+<strong> negrito + semantica de importancia
+<i> italico
+<em> italico + semantica de importanci
+<small> torna a font menor
+<del> risca a string
+<mark> coloca marca texto em string
+<sup>diminui a fonte e sobe um pouco
+<sub>diminui a fonte e desce um pouco
+
+comentario html
+<!--  comentario  -->
+
+CSS string
+color
+font-size
+font-weight:normal|bold
+text-align: center|right|justify,left
+text-transform: lowercase|uppercase
+letter-spacing: 5px
+word-spacing: 5px
+line-height: 40px
+text-shadow: 0px{right} 0px{top} 0px{espalhamento} rgb(0,0,0){color}  
+
+fontes externas
+acessar o google fonts
+
+tabelas
+<table width = "400">
+	<tr>
+		<td></td>
+	</tr>
+</table width = "400">
+
+
+
+
+
+
+
+
+
 
 	
 	
