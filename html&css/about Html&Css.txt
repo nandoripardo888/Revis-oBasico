@@ -142,11 +142,28 @@ fontes externas
 acessar o google fonts
 
 tabelas
-<table width = "400">
+<table width = "400" border="1">
+	<thead> 'tag semantica, diz para o navegador que é o cabeçalho da tabela
+	<tr>
+		<th>head</th>
+	<tr>
+	<thead>
+	
+	<tbody> 'tag semantica, diz para o navegador que é o corpo da tabela
 	<tr>
 		<td></td>
 	</tr>
+	<tbody>
 </table width = "400">
+
+formularios
+tag form, defini grupo de informações do formulario
+
+<form action="arquivo onde será mandado as informações do formulario" method="GET - coloca as informações do form na url e POST - envia as informações internamente">
+
+<input type="text,password,checkbox,radio(name),submit,email," name="teste" value="valor padrão"  />
+
+</form>
 
 
 
