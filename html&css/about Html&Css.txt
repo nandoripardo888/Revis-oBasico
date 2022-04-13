@@ -165,6 +165,41 @@ tag form, defini grupo de informações do formulario
 
 </form>
 
+Herança
+algumas propriedades dos elementos pode herdar caracteriscas da tag pai
+como: color, font-size, etc...
+
+Especificidade
+quanto mais especifico sobre o elemento, que quer aplicar o estilo, o mais especifico vence
+	tag < class < id
+
+cascata
+qual o etyle que será aplicado ao fim das contas
+	externo < pagina < inline
+
+medida absoluta
+unidades de medidas estaticas {px,pt,in(polegadas),cm,mm}
+
+medida relativa
+unidade de medida que se alteram
+em 		- 		tamanho é baseada no tamanho do item pai
+REM 	- 		tamanho é baseado no tamanho do primeiro elemento (root)
+% 		-		tamanho em porcentagem da area disponivel para o elemento
+ex		-		o tamanho é baseado na quantidade de x minusculo [xxxxx] = 5ex
+ch		-		coloca o tamanho de um caractere monoespace ex: 10ch = [aaaaaaaaa]
+
+medida relatica viewport
+vh		-		lagura da tela(viewport) vh(viewport horizontal) e vw(viewport vetical) 50vh é 50% da largura horizontal da tela
+vmin	-		pega o menor valor entre vh e vw
+vmax	-		pega o maior valor entre vh e vw
+
+inherit
+força uma herença
+
+
+
+
+
 
 
 
