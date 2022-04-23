@@ -188,23 +188,21 @@ REM 	- 		tamanho é baseado no tamanho do primeiro elemento (root)
 ex		-		o tamanho é baseado na quantidade de x minusculo [xxxxx] = 5ex
 ch		-		coloca o tamanho de um caractere monoespace ex: 10ch = [aaaaaaaaa]
 
-medida relatica viewport
-vh		-		lagura da tela(viewport) vh(viewport horizontal) e vw(viewport vetical) 50vh é 50% da largura horizontal da tela
-vmin	-		pega o menor valor entre vh e vw
-vmax	-		pega o maior valor entre vh e vw
-
-inherit
-força uma herença
 
 
+diferença entre site adaptativo e responsivo
+adaptativo 	- varia de forma discreta, acordo com certos tamanho 1200px, 720px, 480px, 320px etc...
+responsivo	- varia de forna continua, de acordo com a variação de cada pixel na tela
 
+<meta id="viewport" name="viewport" content="width=device-width">
+a tag meta com name viewport, diz como o navegador vai interpretar as especificações de vizualições da pagina
 
+aplicação no css
+@midia (max-width: 600px){acontece oque esta aqui dentro ...}
 
-
-
-
-
-
+@midia (min-width: 600px)and (max-width: 700px){acontece oque esta aqui dentro ...}
+especifico para inpressão
+@midia only print{acontece oque esta aqui dentro ...}
 
 
 
