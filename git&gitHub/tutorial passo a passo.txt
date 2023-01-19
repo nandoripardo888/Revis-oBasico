@@ -1,0 +1,11 @@
+1 - Crie uma pasta para o seu projeto e navegue até ela no terminal. Por exemplo, você pode criar uma pasta chamada "meu-projeto" e usar o comando "cd meu-projeto" para entrar na pasta.
+
+2 - Inicialize o repositório Git local usando o comando "git init". Isso cria uma pasta escondida chamada ".git" que contém todos os metadados do repositório.
+
+3 - Adicione os arquivos do seu projeto à pasta usando os comandos "git add" e "git commit". Por exemplo, você pode usar o comando "git add ." para adicionar todos os arquivos na pasta atual, em seguida use "git commit -m 'mensagem de commit inicial'" para registrar sua primeira versão dos arquivos.
+
+4 - Crie um novo repositório no GitHub e copie o link do repositório. No github vá em "+" e crie um novo repositório, e copie o link do repositório criado.
+
+5 - Adicione o link do repositório GitHub como um "remote" usando o comando "git remote add origin [link do repositório]". Isso permite que você envie seus arquivos para o repositório remoto no GitHub.
+
+6 - Envie seus arquivos para o repositório remoto usando o comando "git push -u origin master". Isso envia todos os arquivos e commits do seu repositório local para o repositório remoto no GitHub. A opção "-u" é usada para estabelecer uma conexão entre o repositório local e o remoto, então da próxima vez você poderá usar apenas "git push" para enviar atualizações.
