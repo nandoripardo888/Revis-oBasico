@@ -1,0 +1,17 @@
+gerar um token de acesso personalizado no GitHub:
+1 - Acesse sua conta no GitHub e vá em "Settings" (ícone de engrenagem no canto superior direito da tela)
+2 - Selecione "Developer Settings" na barra lateral esquerda
+3 - Selecione "Personal access tokens" na barra de navegação
+4 - Clique em "Generate token" (Gerar token) para criar um novo token
+5 - Dê um nome para o token para identificar qual projeto ou finalidade que ele será utilizado
+6 - Selecione as permissões desejadas para o token (Exemplo: "repo" dará acesso completo aos repositórios)
+7 - Clique em "Generate token" (Gerar token) para criar o token
+8 - Anote o token gerado, pois ele será mostrado apenas uma vez e não será possível visualizá-lo novamente.
+
+Observação: É importante guardar o token gerado em um local seguro e não compartilhá-lo com ninguém. Caso o token seja compartilhado ou perdido, você pode gerar um novo token com as mesmas permissões e revogar o token antigo.
+Para usar o token gerado, você precisará adicioná-lo omo uma credencial de armazenamento para o Git.
+1 - Abra o Git Bash e navegue até a pasta do seu repositório local.
+2 - Configure o Git para usar o token de acesso personalizado como credencial de armazenamento digitando "git config --global credential.helper store"
+3 - Faça um push para o repositório remoto no GitHub digitando "git push"
+4 - Insira seu usuário (seu nome de usuário do GitHub) e o passoword(token) gerado quando solicitado.
+5 - Se você quiser verificar se as configurações foram salvas corretamente, pode usar o comando "git config --list" para ver todas as configurações do Git.
